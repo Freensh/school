@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>COMMANDE</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul class="menu">
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="a-propos.html">Apropos</a></li>
+            <li><a href="formulaire.html">formulaire</a></li>
+            <li><a href="help.html">help</a></li>
+            <li><a href="service.html">service</a></li>
+            <li><a href="connexion.html">connexion</a></li>
+        </ul>
+    </nav>
+  </header>
+    
+        <h1>PARLEZ MOI DE VOTRE PROJET</h1>
+    <form action="confirm.html" method="post">
+        <fieldset>
+            <legend>INFORMATIONS PERSONNELLES</legend>
+            <P>
+                <label for="prenom"> prenom:</label>
+                <input type="text" name="prenom" id="prenom" placeholder="votre prenom" autofocus>
+            </P>
+            <P>
+                <label for="nom"> nom:</label>
+                <input type="text" name="nom" id="nom" placeholder="votre nom" autofocus>
+            </P>
+             <P>
+                <label for="email"> email:</label>
+                <input type="email" name="email" id="email" placeholder="votre email"> 
+            </P>
+           
+            <P>
+               <p>sexe:</p>
+                <input type="radio" name="sexe" id="masculin">
+                <label for="masculin"> masculin</label> 
+                <input type="radio" name="sexe" id="feminin">
+                <label for="feminin"> feminin</label> 
+            </P>
+            <p>
+                <label for="diplome"> diplome</label>
+                <select name="diplome" id="diplome">
+                    <option>aucun</option>
+                    <option>cep</option>
+                    <option>bepc</option>
+                    <option>probatoire</option>
+                    <option>baccalaureat</option>
+                </select>
+            </p>
+            <p>
+                <label for="password">mot de passe:</label>
+                <input type="password" name="password" id="mot de passe">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend> services solicite</legend>
+        <p>
+            <label for="service">service</label>
+            <select name="service" id="service">
+                <option>logo</option>
+                <option>depliant</option>
+                <option>flyers</option>
+                <option>faire-part</option>
+                <option>site web</option>
+                <option>banderoles</option>
+            </select>
+        </p>
+        <P>
+            <label for="number"> numero:</label>
+            <input type="tel" name="number" id="number" placeholder="votre numero"> 
+     </P>
+     <p>
+        <label for="qualite">quantite</label>
+        <input type="number" name="quantite" min=1 max="30" id="quantite"> 
+     </p>
+     <p>
+        <p>format de livraison</p>
+     <input type="checkbox" name="numerique" id="numerique">
+     <label for="numerique">numerique</label>
+     <input type="checkbox" name="sur vignile" id="sur vignile">
+     <label for="sur vignile">sur vignile</label>
+     <input type="checkbox" name="banderoles" id="banderoles">
+     <label for="banderoles">banderoles</label>
+    </p>
+    <p>
+    <p>delais de livraison</p>
+    <label for="date">date:</label> 
+    <input type="date" name="date" min="2024-03-15" max="2024-30-15" id="date">
+   </p>
+   <p>
+    <label for="votre avis">votre avis:</label>
+    <textarea name="avis">votre avis</textarea name>
+</p>
+   <p>
+    <label for="envoyer">envoyer:</label>  
+    <input type="submit" name="envoyer" id="envoyer">
+    <label for="Annuler">Annuler:</label>  
+    <input type="reset" name="Annuler" id="Annuler">
+  </p>
+
+</fieldset> 
+</form>
+<footer>
+    <a href="https://index.html"> 
+    <img src="images\logo.png" alt="logo" tittle="accueil">
+</a>
+<a href="https://twitter.com">
+    <img src="images\twitter.png" alt="logo twitter" title="ouvrir twitter">
+   </a>
+   <a href="https://instagram.com">
+  <img src="images\instagram.png" alt="logo instagram" title="ouvrir instagram">
+   </a>
+</footer>
+</body>   
+</html>   
+
+
+
+
+
+
+
+
+
+
+
+    

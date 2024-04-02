@@ -1,0 +1,104 @@
+h1{
+    color: blue;
+}
+h2{
+    color: rgb(250, 16, 16);
+}
+ol {
+    align-items: right;
+    justify-items: center;
+}
+td{
+    border: 1px solid black;
+    padding: 25px;
+}
+th{
+    border: 1px solid black;
+    padding: 10 px;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 25;
+}
+caption{
+    font-size: 22px;
+    font-family:Arial;
+    font-weight: bold;
+    color:rgb(33, 13, 214);
+    background:linear-gradient(red,white) ;
+    width: 254px;
+
+}
+footer{
+    background-image: url(1685375958870.jpg);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 20px;
+    background-size: cover;
+}
+
+
+.menu{
+    list-style-type: none;
+    background-color: rgb(51,51,51);
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+}
+.menu>li{
+    display: inline;
+    float: right;
+}
+.menu>li>a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-left: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+.menu>li>a:hover{
+    background-color: rgb(3, 2, 94);
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:2px solid rgb(33, 36, 66);
+    font-size: 40px;
+    text-shadow: 2px;
+}
+
+.intro{
+   display: grid;
+   column-gap: 20px;
+   grid-template-columns: auto auto auto;
+   margin-top: 15px;
+}
+.portrait>img{
+    width: 300px;
+    height: 300px;
+}
+.profile{
+    padding-left: 30px;
+}
+.logos{
+    color: aliceblue;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+   background-color: rgb(255, 208, 0);
+   
+   
+    padding: 10px;
+}
+.bing{
+    height: 800px;
+    background-image: url(1684440641547.jpg);
+    column-gap: 1px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+nav{
+    position:sticky;
+    top: 0;
+}
